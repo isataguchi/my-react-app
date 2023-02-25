@@ -4,8 +4,7 @@ import "./index.css";
 export default function Footer() {
   return (
     <footer>
-      <p class="text-center pb-5">
-        {" "}
+      <p class="text-center pt-3">
         🌟 Coded by Isadora and is open sourced on
         <a
           href=" https://github.com/isataguchi/my-react-app"
@@ -13,6 +12,7 @@ export default function Footer() {
           rel="noopener noreferrer"
           title="Github"
         >
+          {" "}
           Github
         </a>
       </p>
